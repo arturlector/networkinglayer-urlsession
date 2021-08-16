@@ -44,14 +44,7 @@ enum FlickrEndpoint: Endpoint {
                     "per_page": "20",
                     "nojsoncallback": "1",
                     "api_key": apiKey]
-        
-//            return [URLQueryItem(name: "text", value: searchText),
-//                    URLQueryItem(name: "page", value: String(page)),
-//                    URLQueryItem(name: "method", value: "flickr.photos.search"),
-//                    URLQueryItem(name: "format", value: "json"),
-//                    URLQueryItem(name: "per_page", value: "20"),
-//                    URLQueryItem(name: "nojsoncallback", value: "1"),
-//                    URLQueryItem(name: "api_key", value: apiKey)]
+
         }
     }
     
